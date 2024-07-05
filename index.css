@@ -1,0 +1,16 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: auto;
+    grid-row-gap: auto;
+    background-color: white;
+    padding: auto;
+  }
+  
+  .grid-container > div {
+    background-color: white;
+    text-align: center;
+    padding-top: auto;
+    padding-left: auto;
+    padding-widht: 640px;
+  }
